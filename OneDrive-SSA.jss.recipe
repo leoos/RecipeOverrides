@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.OneDrive-SSA</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-install-self-service</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate10.9up-SSA.xml</string>
+		<key>ICON</key>
+		<string>OneDrive.png</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Productivity</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate-SSA.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Install the latest version of %NAME%.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>OneDrive.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.novaksam.jss.OneDrive</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>MASReceipt</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4f66ace96860153ae4e6decb7a4e4df6f4eb859b</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - pkg/MASReceipt.py</string>
+				<key>sha256_hash</key>
+				<string>c4a2d9144ad67cefaadcf3e86a3239eddef94cf3de5dd4c2d452b03d28b5dce9</string>
+			</dict>
+			<key>PathListCopier</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e4590e9128559b00e05ea76361da4926b93c399f</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - pkg/PathListCopier.py</string>
+				<key>sha256_hash</key>
+				<string>0e8db1ff2262354be2fbf26376c83f865003ed1df680994162d5162c69895fc7</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.novaksam.jss.OneDrive</key>
+			<dict>
+				<key>git_hash</key>
+				<string>58063bcdc65d6d74315ab8984420a20de34e55a8</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/OneDrive/OneDrive.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>982d6cab83baf4a2d40224d2fb5882dd8a1e2dc5f923a81755219233e6818ca5</string>
+			</dict>
+			<key>com.github.novaksam.pkg.OneDrive</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ec5e2f1ba53b9c7ffb51c419b36e487b88611440</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - pkg/OneDrive.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>009d2c99f7dddd2d93fa826460ae88a89f3325c6359899f30587b617696d396f</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

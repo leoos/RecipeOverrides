@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Atom-autoupdate</string>
+	<key>Input</key>
+	<dict>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-autoupdate</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-108plus.xml</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Auto Update</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-autoupdate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.Atom</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.Atom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>213285b15e17e3a443017e281c2aff7bfbbb7804</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Atom/Atom.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>b02bdc5428532b0fd0781b26e52b45089b92f66f1fecd2b77473a6985f54e483</string>
+			</dict>
+			<key>io.github.hjuutilainen.download.Atom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8471b8fc8ee88153b5fee7b8aafd04c1e7526350</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/GitHub/Atom.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>9354a4d7c156d6e440c32b51d03d891694daac0b914d31da025837f47ee9b5d2</string>
+			</dict>
+			<key>io.github.hjuutilainen.pkg.Atom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>39b62202a0190f8fd029220b7829b8793635efc3</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/GitHub/Atom.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>5b11aa690ccd1c4cfff85e80e8a7e3ad394d985522325d163ad545bf2cc29877</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Audacity-autoupdate</string>
+	<key>Input</key>
+	<dict>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-autoupdate</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-autoupdate.xml</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Auto Update</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-autoupdate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.Audacity</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.Audacity</key>
+			<dict>
+				<key>git_hash</key>
+				<string>15174885d509f7c76a0b081184b22b56e5760a6f</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Audacity/Audacity.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>f58ed970c6e864088f7433be85053c609e49a40d72926ede94d49f3ec919fe5d</string>
+			</dict>
+			<key>com.github.scriptingosx.pkg.audacity</key>
+			<dict>
+				<key>git_hash</key>
+				<string>799890c253c4f1c1588bf232b0ef8a5a7ad12cd1</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.scriptingosx-recipes/Audacity/Audacity.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>23ab1c0a5758853db23d1673257a8cbcbfaa6a02f9d36d5c387d86824c809b72</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

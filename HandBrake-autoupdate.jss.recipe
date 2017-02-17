@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.HandBrake-autoupdate</string>
+	<key>Input</key>
+	<dict>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-autoupdate</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-107plus.xml</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Auto Update</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-autoupdate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.HandBrake</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.Handbrake</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Handbrake/Handbrake.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>fb1c663a887520371cf1dbb618f41b3bee34a8f58a39983cea367071af14f446</string>
+			</dict>
+			<key>com.github.autopkg.pkg.Handbrake</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f29f399c54adee7122e9fdc3c1ea7ed4c67388a4</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Handbrake/Handbrake.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>9aebd03b9dc256d2c2807b49b9735febc2c6b4729c4a1d0c02b3be3111974a61</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.HandBrake</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1d494dc28101da3b605f94db6827b6ab8970fe77</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/HandBrake/HandBrake.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>1b55aa7dcc4ba9a3ba8872efca3366d653f8c9052944683530305bf763e5221e</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

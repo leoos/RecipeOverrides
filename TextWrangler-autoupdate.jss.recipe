@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.TextWrangler-autoupdate</string>
+	<key>Input</key>
+	<dict>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-autoupdate</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-textwrangler.xml</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Auto Update</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-autoupdate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.TextWrangler</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>BarebonesURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c4a6bacbba3a00ff24f0914efcd9159eb26999ba</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/BarebonesURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>f23c5f4769d3be3f29d1e573867275ae63e38c23e56b39250478c3159927a33f</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.textwrangler</key>
+			<dict>
+				<key>git_hash</key>
+				<string>937886757bbb1981b1179263f2aed613fea1d53d</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/TextWrangler.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>9e10b50a7087d36f58ba0385d5385f1be65406c988037dbf910b58c4cc91d2f5</string>
+			</dict>
+			<key>com.github.autopkg.pkg.TextWrangler</key>
+			<dict>
+				<key>git_hash</key>
+				<string>660bd4d9e23f6a9f38daee3f48c780091aebf3f3</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/TextWrangler.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>bab6a2258a685171037fc825bfa6465c73e8936c41739fc818fe013eb357f7d7</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.TextWrangler</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1d494dc28101da3b605f94db6827b6ab8970fe77</string>
+				<key>path</key>
+				<string>/Users/admin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/TextWrangler/TextWrangler.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>b924fe1042cfc91f0541352dc52d7f8133ffc2d344f11e95488488e839bf47bf</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
